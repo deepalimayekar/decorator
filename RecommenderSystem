@@ -1,0 +1,11 @@
+package RecommenderSystem;
+// The below class will take a function / object as input and return a function/ object as output. The usage is more prevalent when you have a function that is a moving target itself
+// For example, a recommender system is used to show the content you would like to see on the banner, ui component - gift you will love, based on your purchases, you will like it and so on
+// this section is based on you direct and your perceived preferences. Direct preferences are the preferences that you have added as part of your profile that is visible to you.
+// Indirect preferences are the data modeling and data science results which indicate what you will like.
+public class Recommender {
+    private behaviour ---> An object that is deduced from your activity and intelligence of the website.
+    private state --> An object matching with the behaviour input. This need not be hardcoded but should be fluid 
+    private operation  ---> Operation is function that will ingest a behaviour and provide a state
+
+}
